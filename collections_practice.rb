@@ -73,8 +73,11 @@ def sum_array(numbers)
 end
 
 def add_s(words)
-  words.each do |word|
-    word << "s"
+  i = 0
+  while i<words.length
+    if i != 1
+      words[i] << "s"
+    end
   end
   words
 end

@@ -73,5 +73,8 @@ def sum_array(numbers)
 end
 
 def add_s(words)
-
+  words.each do |word|
+    word << "s"
+  end
+  words
 end

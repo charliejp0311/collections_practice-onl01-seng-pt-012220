@@ -1,36 +1,35 @@
 def sort_array_asc(numbers)
   numbers.sort { |a, b| a <=> b }
-end 
+end
 
 def sort_array_desc(numbers)
 
-end 
+end
 
 def sort_array_char_count(words)
 
-end 
+end
 
 def swap_elements(items)
 
-end 
+end
 
 def reverse_array(numbers)
 
-end 
+end
 
 def kesha_maker(words)
 
-end 
+end
 
-def find_a(words) 
+def find_a(words)
 
-end 
+end
 
 def sup_array(nuumbers)
 
-end 
+end
 
 def add_s(words)
 
-end 
-
+end

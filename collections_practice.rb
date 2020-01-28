@@ -55,7 +55,12 @@ def kesha_maker(words)
 end
 
 def find_a(words)
-
+  starts_with_a = []
+  words.each do |word|
+    if word.start_with?("a")
+      starts_with_a << word
+    end
+  starts_with_a
 end
 
 def sup_array(nuumbers)

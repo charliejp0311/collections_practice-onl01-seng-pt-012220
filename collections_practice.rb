@@ -49,7 +49,7 @@ def kesha_maker(words)
   #while i < words.length
     words.each do |word|
       word[2] = $
-  #  end 
+  #  end
   #  i += 1
   end
 end

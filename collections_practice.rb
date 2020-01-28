@@ -78,6 +78,7 @@ def add_s(words)
     if i != 1
       words[i] << "s"
     end
+    i =+ 1
   end
   words
 end

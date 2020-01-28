@@ -60,6 +60,7 @@ def find_a(words)
     if word.start_with?("a")
       starts_with_a << word
     end
+  end 
   starts_with_a
 end
 

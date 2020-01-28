@@ -45,7 +45,13 @@ def reverse_array(numbers)
 end
 
 def kesha_maker(words)
-
+  #i = 0
+  #while i < words.length
+    words.each do |word|
+      word[2] = $
+  #  end 
+  #  i += 1
+  end
 end
 
 def find_a(words)

@@ -35,7 +35,12 @@ def swap_elements(items)
 end
 
 def reverse_array(numbers)
-
+  reverse = []
+  i = numbers.length
+  while i >= 0
+    reverse << numbers[i]
+  end
+  reverse
 end
 
 def kesha_maker(words)

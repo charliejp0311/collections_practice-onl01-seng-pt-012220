@@ -64,7 +64,7 @@ def find_a(words)
   starts_with_a
 end
 
-def sup_array(nuumbers)
+def sum_array(nuumbers)
   sum = 0
   numbers.each do |num|
     sum += num

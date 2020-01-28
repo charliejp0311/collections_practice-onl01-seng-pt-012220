@@ -73,12 +73,9 @@ def sum_array(numbers)
 end
 
 def add_s(words)
-  i = 0
-  while i < words.length
-    if i != 1
-      words[i] = "#{words[i]}s"
-    end
-    i =+ 1
+  words.each_with_index.collect{|element,index|
+  if index != 1
+    element << "s"
   end
-  words
+  }
 end

@@ -74,7 +74,7 @@ end
 
 def add_s(words)
   i = 0
-  while i<words.length
+  while i < words.length
     if i != 1
       words[i] =  "#{words[i]}s"
     end

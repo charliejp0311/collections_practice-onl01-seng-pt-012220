@@ -27,7 +27,10 @@ def sort_array_char_count(words)
 end
 
 def swap_elements(items)
-
+  second_item = items[1]
+  third_item = items[2]
+  items[1] = third_item
+  items[2] = second_item
 end
 
 def reverse_array(numbers)

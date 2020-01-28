@@ -39,6 +39,7 @@ def reverse_array(numbers)
   i = numbers.length
   while i >= 0
     reverse << numbers[i]
+    i -= 1
   end
   reverse
 end

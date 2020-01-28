@@ -30,7 +30,7 @@ def swap_elements(items)
   second_item = items[1]
   third_item = items[2]
   items[1] = third_item
-  items[2] = second_item]
+  items[2] = second_item
   items
 end
 
